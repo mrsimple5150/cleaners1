@@ -282,3 +282,44 @@ li{
     border-radius: 10px;
     cursor: pointer;
 }
+.testy_flex{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.testy_card{
+    width: 40%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .10);
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+.testy_img{
+    width: 30%;
+    height: auto;
+    object-fit: cover;
+    
+    display: inline-block;
+    
+}
+.testy_text{
+    width: 60%;
+    height: auto;
+    line-height: 25px;
+    font-weight: 300;
+    font-size: 25px;
+    color: #274576;
+}
+.testy_name{
+    margin-bottom: 30px;
+    color: #274576;
+}
