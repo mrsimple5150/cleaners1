@@ -301,6 +301,13 @@ li{
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .10);
     margin-bottom: 20px;
     border-radius: 10px;
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+.testy_card:hover{
+    box-shadow:8px 8px 8px 8px rgba(0, 0, 0, .15); 
+    transform: scale(1.03);
+    cursor: pointer;
 
 }
 .testy_img{
